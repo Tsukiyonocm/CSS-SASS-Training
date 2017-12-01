@@ -4,7 +4,7 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass sass -o css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Tsukiyonocm/CSS-SASS-Training#readme",
   "devDependencies": {
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.5.3"
   }
 }
