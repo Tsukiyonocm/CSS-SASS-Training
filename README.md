@@ -18,7 +18,6 @@ sass/main.scss: this is the input file you are using. You use this so that NPM k
 
 2. After setting up the package.JSON script above, go back into the command line and use this command:
 
-npm run scss
 
 This is fairly self explanatory. NPM is needed so the command line knows you are using the Node command system. run tells the command line you are going to be running a script and scss is the script you are running.
 
@@ -31,3 +30,14 @@ The -g will install the live server globally so that you can use this feature on
 
 2. On the NPM command line, type in the text: live-server
 Thats it, after this everything will be updated in its own window as you save new updates.
+
+
+
+7-1 CSS Architecture SASS:
+This is basically talking about keeping various CSS elements in particular SASS files.
+These SASS files are called partials. Read more here: http://sass-lang.com/guide
+
+When setting up the import structure, it is not required to put the file type on the directory to the imported file. For instance, lets go with the _base.scss file for this project.
+ You can write it into the project like this: base/base
+First base is the folder the SCSS file is stored in.
+The second base is the actual file, notice you dont need the _ and .scss for this to work.

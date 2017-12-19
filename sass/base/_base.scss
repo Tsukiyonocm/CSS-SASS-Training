@@ -1,0 +1,25 @@
+/*------------------------------------------------------------------
+[ Basic CSS Reset ]
+*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /* This font size makes things easier when using rem units throughout the rest of the site. For instance, 1rem is calculated as 10px.
+    So if you wanted a font size of 16px, all you would need to do is set font-size to 1.6rem and there you go. This also means that you no
+    longer need to change every font for mobile responsiveness, you just need to change this one setting.
+
+    The 62.5% is based off what browsers typically have as a default size. 16px. By choosing this percentage, you set the default size to 10px,
+    but it can be updated by the user inside of the browsers.*/
+}
+
+body {
+    box-sizing: border-box;
+}
